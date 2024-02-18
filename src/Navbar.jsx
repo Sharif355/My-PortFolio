@@ -31,7 +31,15 @@ const Navbar = () => {
           </li>
         </ul>
         <li className="hidden lg:flex justify-center items-start">
-          <button className="btn bg-black text-white">Download CV</button>
+          <button className="btn bg-black text-white">
+            <a
+              href="https://drive.google.com/file/d/1df4jb5XTMaiPXJ04riUANNsMsiH4lJtL/view?usp=sharing"
+              download="Shariful Islam Resume.pdf"
+              target="_blank"
+            >
+              Download CV
+            </a>
+          </button>
         </li>
       </div>
       <div className="drawer drawer-end ">
@@ -66,7 +74,15 @@ const Navbar = () => {
               <a>Contact</a>
             </li>
             <li className="flex justify-center items-start">
-              <button className="btn bg-black text-white">Download CV</button>
+              <button className="btn bg-black text-white">
+                <a
+                  href="https://drive.google.com/file/d/1df4jb5XTMaiPXJ04riUANNsMsiH4lJtL/view?usp=sharing"
+                  download="Shariful Islam Resume.pdf"
+                  target="_blank"
+                >
+                  Download CV
+                </a>
+              </button>
             </li>
           </ul>
         </div>
