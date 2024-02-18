@@ -7,7 +7,7 @@ const Skills = () => {
       </div>
       {/* FrontEnd */}
       <h3 className="text-xl py-3 font-semibold pl-[88px]">FrontEnd Tech</h3>
-      <div className="grid grid-col-1 md:grid-cols-3 lg:grid-cols-6 gap-5 pl-[88px]">
+      <div className="grid grid-col-1 md:grid-cols-3 lg:grid-cols-6 gap-5 pl-[88px] pb-6">
         <button className="flex items-center bg-gradient-to-r from-stone-400 to-stone-200 text-black btn">
           <img
             src="https://i.ibb.co/jWZQYZQ/5847f5bdcef1014c0b5e489c.png"
@@ -56,13 +56,13 @@ const Skills = () => {
           />
           <h4 className="text-xl font-semibold"> React</h4>
         </button>
-        <button className="flex items-center bg-gradient-to-r from-stone-400 to-stone-200 text-black rounded-lg px-2">
+        <button className="flex items-center bg-gradient-to-r from-stone-400 to-stone-200 text-black rounded-lg px-1 gap-2">
           <img
             src="https://i.ibb.co/G0yPZCR/react-router.png"
             alt="html"
             className="w-8"
           />
-          <h4 className="text-xl font-semibold"> React Router</h4>
+          <h4 className="text-base font-semibold"> React Router</h4>
         </button>
         <button className="flex items-center bg-gradient-to-r from-stone-400 to-stone-200 text-black btn">
           <img
@@ -75,7 +75,7 @@ const Skills = () => {
       </div>
       {/* BackEnd */}
       <h3 className="text-xl py-3 font-semibold pl-[88px]">BackEnd Tech</h3>
-      <div className="grid grid-col-1 md:grid-cols-3 lg:grid-cols-6 gap-5 pl-[88px]">
+      <div className="grid grid-col-1 md:grid-cols-3 lg:grid-cols-6 gap-5 pl-[88px] pb-6">
         <button className="flex items-center bg-gradient-to-r from-stone-400 to-stone-200 text-black rounded-lg px-2">
           <img
             src="https://i.ibb.co/CJnScxn/file-type-firebase.png"
